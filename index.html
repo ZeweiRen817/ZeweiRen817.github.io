@@ -12,8 +12,8 @@
     <a class="brand" href="#top">Zewei Ren</a>
     <nav aria-label="Primary navigation">
       <a href="#about">About</a>
-      <a href="#research">Research</a>
       <a href="#experience">Experience</a>
+      <a href="#projects">Research</a>
       <a href="#publications">Publications</a>
       <a href="#cv">CV</a>
       <a href="#contact">Contact</a>
@@ -24,7 +24,7 @@
     <section class="hero">
       <div class="hero-copy">
         <p class="eyebrow">Statistics PhD Candidate | Biostatistics | Survival Analysis</p>
-        <h1>Developing statistical methods for clinical, longitudinal, and time-to-event data.</h1>
+        <h1>Developing statistical methods for time-to-event and longitudinal data.</h1>
         <p class="intro">
           I am a Statistics PhD candidate at the University of Missouri, expecting to graduate
           in December 2026. My work focuses on survival analysis, longitudinal data analysis,
@@ -96,85 +96,10 @@
       </div>
     </section>
 
-    <section id="research" class="section muted">
-      <div class="section-heading">
-        <p class="eyebrow">Research</p>
-        <h2>Research interests</h2>
-      </div>
-      <div class="cards three">
-        <article class="card">
-          <h3>Survival analysis</h3>
-          <p>Interval-censored data, cure models, frailty models, and time-to-event methodology.</p>
-        </article>
-        <article class="card">
-          <h3>Longitudinal and multi-state data</h3>
-          <p>Modeling repeated clinical measurements and disease-state transitions over time.</p>
-        </article>
-        <article class="card">
-          <h3>Statistical learning</h3>
-          <p>High-dimensional data analysis, variable selection, transfer learning, and Bayesian methods.</p>
-        </article>
-      </div>
-    </section>
-
-    <section id="projects" class="section">
-      <div class="section-heading">
-        <p class="eyebrow">Selected Research</p>
-        <h2>Current and recent projects</h2>
-      </div>
-      <div class="cards">
-        <article class="card project-card">
-          <div>
-            <h3>Subgroup analysis for interval-censored data with a cure fraction</h3>
-            <p>
-              Developed a mixture promotion time cure model to capture heterogeneous covariate
-              effects on cure probabilities and survival outcomes. Proposed a BIC-based subgroup
-              analysis framework with efficient variance estimation using profiled likelihood and
-              the delta method.
-            </p>
-          </div>
-          <p class="tags">Survival Analysis · Cure Models · Interval Censoring</p>
-        </article>
-        <article class="card project-card">
-          <div>
-            <h3>Variable selection for clustered mixed panel count data</h3>
-            <p>
-              Developed a unified modeling framework for recurrent event counts and binary outcomes
-              while accounting for within-cluster correlation. Integrated regression and variable
-              selection using the minimum information criterion and an L0 penalty.
-            </p>
-          </div>
-          <p class="tags">Panel Count Data · Variable Selection · Clustered Data</p>
-        </article>
-        <article class="card project-card">
-          <div>
-            <h3>Multi-state modeling for clinical trial observation intervals</h3>
-            <p>
-              At Novartis, implemented a time-inhomogeneous interval-censored multi-state model with
-              piecewise-constant baseline hazards. Simulation and Inclisiran trial analyses showed
-              improved estimation accuracy and informed observation-interval decisions in trial design.
-            </p>
-          </div>
-          <p class="tags">Clinical Trials · Multi-State Models · Biostatistics</p>
-        </article>
-        <article class="card project-card">
-          <div>
-            <h3>Bayesian hierarchical modeling for longitudinal PBC data</h3>
-            <p>
-              Applied Bayesian hierarchical longitudinal models in R and JAGS to Mayo Clinic PBC data,
-              comparing fixed-effect, random-intercept, and random-slope models with frequentist
-              alternatives and estimating patient-specific bilirubin trajectories via MCMC.
-            </p>
-          </div>
-          <p class="tags">Bayesian Modeling · JAGS · Longitudinal Data</p>
-        </article>
-      </div>
-    </section>
-
     <section id="experience" class="section muted">
       <div class="section-heading">
         <p class="eyebrow">Experience</p>
-        <h2>Research, consulting, and industry biostatistics</h2>
+        <h2>Work experience</h2>
       </div>
       <div class="timeline">
         <article class="timeline-item">
@@ -211,6 +136,57 @@
             Collected, visualized, and analyzed investment data in technology, media, telecommunications,
             and glass-free 3D film industries to support investment decision-making.
           </p>
+        </article>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Selected Research</p>
+        <h2>Current and recent projects</h2>
+      </div>
+      <div class="timeline">
+        <article class="timeline-item">
+          <p class="date">PhD dissertation project | Feb. 2024 - Present</p>
+          <h3>Subgroup analysis for interval-censored data with a cure fraction</h3>
+          <p>
+            Developed a mixture promotion time cure model to capture heterogeneous covariate
+            effects on cure probabilities and survival outcomes. Proposed a BIC-based subgroup
+            analysis framework with efficient variance estimation using profiled likelihood and
+            the delta method.
+          </p>
+          <p class="timeline-tags">Survival Analysis | Cure Models | Interval Censoring</p>
+        </article>
+        <article class="timeline-item">
+          <p class="date">PhD dissertation project | Jan. 2025 - Present</p>
+          <h3>Variable selection for clustered mixed panel count data</h3>
+          <p>
+            Developed a unified modeling framework for recurrent event counts and binary outcomes
+            while accounting for within-cluster correlation. Integrated regression and variable
+            selection using the minimum information criterion and an L0 penalty.
+          </p>
+          <p class="timeline-tags">Panel Count Data | Variable Selection | Clustered Data</p>
+        </article>
+        <article class="timeline-item">
+          <p class="date">Novartis summer intern project | Jun. 2025 - Sep. 2025</p>
+          <h3>Multi-state modeling for clinical trial observation intervals</h3>
+          <p>
+            Implemented a time-inhomogeneous interval-censored multi-state model with
+            piecewise-constant baseline hazards. Simulation and Inclisiran trial analyses showed
+            improved estimation accuracy and informed observation-interval decisions in clinical
+            trial design.
+          </p>
+          <p class="timeline-tags">Clinical Trials | Multi-State Models | Biostatistics</p>
+        </article>
+        <article class="timeline-item">
+          <p class="date">Course project | Oct. 2022 - Dec. 2022</p>
+          <h3>Bayesian hierarchical modeling for longitudinal PBC data</h3>
+          <p>
+            Applied Bayesian hierarchical longitudinal models in R and JAGS to Mayo Clinic PBC data,
+            comparing fixed-effect, random-intercept, and random-slope models with frequentist
+            alternatives and estimating patient-specific bilirubin trajectories via MCMC.
+          </p>
+          <p class="timeline-tags">Bayesian Modeling | JAGS | Longitudinal Data</p>
         </article>
       </div>
     </section>
@@ -255,7 +231,7 @@
         </div>
         <div>
           <h3>Technical skills</h3>
-          <p class="tags">R · SAS · Python · JAGS · Survival Analysis · Longitudinal Data · Multi-State Models · Bayesian Methods · HPC · LaTeX</p>
+          <p class="tags">R | SAS | Python | JAGS | Survival Analysis | Longitudinal Data | Multi-State Models | Bayesian Methods | HPC | LaTeX</p>
           <h3 class="subhead">Certifications</h3>
           <ul class="plain-list">
             <li>SAS Programming 1: Essentials</li>

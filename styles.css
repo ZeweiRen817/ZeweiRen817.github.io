@@ -341,6 +341,12 @@ dd {
   font-weight: 700;
 }
 
+.timeline-tags {
+  margin-top: 12px;
+  color: var(--warm);
+  font-weight: 700;
+}
+
 .publication-list {
   display: grid;
   gap: 16px;
