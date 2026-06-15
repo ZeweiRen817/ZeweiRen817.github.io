@@ -143,16 +143,67 @@ nav a:hover {
   overflow: hidden;
 }
 
-.profile-mark {
-  display: grid;
-  place-items: center;
-  min-height: 150px;
-  background:
-    linear-gradient(135deg, rgba(15, 118, 110, 0.92), rgba(28, 36, 48, 0.92)),
-    repeating-linear-gradient(45deg, transparent, transparent 12px, rgba(255, 255, 255, 0.08) 12px, rgba(255, 255, 255, 0.08) 24px);
-  color: var(--white);
-  font-size: 58px;
-  font-weight: 700;
+.photo-switcher {
+  position: relative;
+  background: #dce4ea;
+}
+
+.photo-switcher input {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.photo-stage {
+  position: relative;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+}
+
+.photo {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 28%;
+  opacity: 0;
+  transition: opacity 160ms ease;
+}
+
+#photo-1:checked ~ .photo-stage .photo-one,
+#photo-2:checked ~ .photo-stage .photo-two,
+#photo-3:checked ~ .photo-stage .photo-three,
+#photo-4:checked ~ .photo-stage .photo-four {
+  opacity: 1;
+}
+
+.photo-controls {
+  position: absolute;
+  right: 12px;
+  bottom: 12px;
+  display: flex;
+  gap: 7px;
+  padding: 7px;
+  border-radius: 999px;
+  background: rgba(28, 36, 48, 0.58);
+  backdrop-filter: blur(8px);
+}
+
+.photo-controls label {
+  width: 11px;
+  height: 11px;
+  border: 1px solid rgba(255, 255, 255, 0.86);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.3);
+  cursor: pointer;
+}
+
+#photo-1:checked ~ .photo-controls label[for="photo-1"],
+#photo-2:checked ~ .photo-controls label[for="photo-2"],
+#photo-3:checked ~ .photo-controls label[for="photo-3"],
+#photo-4:checked ~ .photo-controls label[for="photo-4"] {
+  background: var(--white);
 }
 
 dl {
