@@ -311,6 +311,20 @@ dd {
   color: var(--muted);
 }
 
+.skill-list {
+  display: grid;
+  gap: 8px;
+  color: var(--muted);
+}
+
+.skill-list p {
+  margin: 0;
+}
+
+.skill-list strong {
+  color: var(--ink);
+}
+
 .timeline {
   display: grid;
   gap: 16px;
