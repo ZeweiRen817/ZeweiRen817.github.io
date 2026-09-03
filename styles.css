@@ -280,8 +280,7 @@ dd {
   padding: 18px;
 }
 
-.card h3,
-.split h3 {
+.card h3 {
   margin: 0 0 10px;
   font-size: 20px;
   line-height: 1.25;
@@ -304,32 +303,7 @@ dd {
   font-weight: 700;
 }
 
-.split {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 22px;
-  max-width: 1040px;
-}
 
-.plain-list {
-  margin: 0;
-  padding-left: 20px;
-  color: var(--muted);
-}
-
-.skill-list {
-  display: grid;
-  gap: 8px;
-  color: var(--muted);
-}
-
-.skill-list p {
-  margin: 0;
-}
-
-.skill-list strong {
-  color: var(--ink);
-}
 
 .timeline {
   display: grid;
@@ -399,37 +373,6 @@ dd {
   padding-left: 6px;
 }
 
-.subhead {
-  margin-top: 24px;
-}
-
-.contact-section {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) auto;
-  gap: 28px;
-  align-items: center;
-}
-
-.contact-section p {
-  max-width: 680px;
-  color: var(--muted);
-}
-
-.contact-links {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  justify-content: flex-end;
-}
-
-.contact-links a {
-  padding: 10px 14px;
-  border: 1px solid var(--line);
-  border-radius: 6px;
-  background: var(--white);
-  font-weight: 700;
-  text-decoration: none;
-}
 
 .site-footer {
   padding: 24px clamp(20px, 6vw, 72px);
@@ -458,9 +401,7 @@ dd {
   .hero,
   .content-grid,
   .cards,
-  .cards.three,
-  .split,
-  .contact-section {
+  .cards.three {
     grid-template-columns: 1fr;
   }
 
@@ -468,7 +409,5 @@ dd {
     min-height: auto;
   }
 
-  .contact-links {
-    justify-content: flex-start;
-  }
+
 }
