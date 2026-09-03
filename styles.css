@@ -419,7 +419,15 @@ dd {
   }
 
   nav {
+    display: grid;
+    grid-template-columns: repeat(3, max-content);
+    width: 100%;
     justify-content: flex-start;
+    row-gap: 8px;
+  }
+
+  .hero > * {
+    min-width: 0;
   }
 
   .hero,

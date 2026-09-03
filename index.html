@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Zewei Ren | Statistics PhD Candidate</title>
   <meta name="description" content="Personal website for Zewei Ren, Statistics PhD candidate at the University of Missouri seeking biostatistician and statistician roles.">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css?v=20260902">
 </head>
 <body>
   <header class="site-header">
@@ -24,14 +24,14 @@
     <section class="hero">
       <div class="hero-copy">
         <p class="eyebrow">Statistics PhD Candidate | Biostatistics | Survival Analysis</p>
-        <h1>Developing statistical methods for time-to-event and longitudinal data.</h1>
+        <h1>Developing statistical methods for complex time-to-event and longitudinal data.</h1>
         <p class="intro">
           I am Zewei Ren, a PhD candidate in Statistics at the University of Missouri, expecting to graduate
-          in December 2026. My research focuses on survival analysis and longitudinal data analysis, and I am seeking
-          biostatistician, statistician or related roles.
+          in December 2026. My research focuses on survival analysis, longitudinal data analysis, and causal inference.
+          I enjoy translating complex real-world questions into rigorous statistical models through interdisciplinary collaboration.
         </p>
         <div class="actions" aria-label="Primary actions">
-          <a class="button primary" href="assets/2026_Univ. of Missouri_Zewei_Ren.pdf">Download Resume</a>
+          <a class="button primary" href="assets/2026_Mizzou_Zewei_Ren_threepages.pdf">Download Resume</a>
           <a class="button secondary" href="https://www.linkedin.com/in/zewei-ren-613806169/">LinkedIn</a>
           <a class="button secondary" href="mailto:zrm37@umsystem.edu">Email</a>
         </div>
@@ -66,7 +66,7 @@
           </div>
           <div>
             <dt>Core tools</dt>
-            <dd>R, SAS, Python, JAGS, HPC, LaTeX</dd>
+            <dd>R, SAS, Python, SQL, JAGS, SLURM/HPC</dd>
           </div>
           <div>
             <dt>Location</dt>
@@ -83,16 +83,16 @@
       </div>
       <div class="content-grid">
         <p>
-          My research focuses on survival analysis, such as interval-censored data analysis, multi-state modeling, and 
-          longitudinal data analysis. I currently work as a research assistant (statistical consultant) at 
-          the Center for Applied Statistics and Data Analysis(CASDA) at MIZZOU, where I collaborate with students and faculty 
-          across disciplines on study design, statistical modeling, and data analysis. In Summer 2025, I interned at Novartis 
-          as a biostatistician, working on an interval-censored multi-state modeling project for longitudinal clinical trial data.
+          My research focuses on survival analysis, including interval-censored data, cure models, multi-state modeling,
+          longitudinal data analysis, and causal inference. I currently work as a research assistant and statistical consultant at
+          the Center for Applied Statistics and Data Analysis (CASDA) at the University of Missouri, where I have supported more
+          than 40 interdisciplinary projects involving study design, statistical modeling, and results interpretation.
         </p>
         <p>
-          Outside of statistics, I enjoy exploring new places and trying new experiences, including hiking, scuba diving, 
-          traveling to different areas, and learning new swimming styles. I value curiosity, adaptability, 
-          and continuous learning in both research and life.
+          In summer 2025, I interned as a biostatistician at Novartis, developing interval-censored multi-state methods for
+          longitudinal clinical trial data and evaluating observation-interval choices in trial design. Outside statistics, I
+          enjoy exploring new places and trying new experiences, including hiking, scuba diving, traveling to different areas,
+          and learning new swimming styles. I value curiosity, adaptability, and continuous learning in both research and life.
         </p>
       </div>
     </section>
@@ -107,27 +107,27 @@
           <p class="date">Aug. 2022 - Present</p>
           <h3>Research Assistant, CASDA, University of Missouri</h3>
           <p>
-            Provide statistical consulting for interdisciplinary research projects. Develop analysis
-            plans, apply generalized linear models, mixed-effects models, survival models, power
-            analysis, and study design methods, and support researchers through R programming,
-            office hours, and workshops.
+            Consulted on more than 40 interdisciplinary projects, translating research questions into analysis plans and
+            supporting dissertations, manuscripts, and grant proposals. Implement statistical analyses in R, Python, and SAS,
+            provide R programming support, and deliver office hours and workshops, including ASA DataFest at Mizzou.
           </p>
         </article>
         <article class="timeline-item">
           <p class="date">Jun. 2025 - Aug. 2025</p>
           <h3>Biostatistician Summer Intern, Novartis</h3>
           <p>
-            Collaborated with trial statisticians and cross-functional partners on interval-censored
-            multi-state modeling for longitudinal clinical trial data with repeated LDL-C measurements.
+            Analyzed pooled Inclisiran trial data using time-inhomogeneous interval-censored multi-state models with
+            transition-specific proportional hazards. Designed simulations that demonstrated reduced treatment-effect bias
+            and informed observation-interval choices balancing estimation accuracy with patient visit burden.
           </p>
         </article>
         <article class="timeline-item">
           <p class="date">Jan. 2022 - Aug. 2022</p>
           <h3>Statistician, University of Missouri School of Medicine</h3>
           <p>
-            Supported MU Hospital research projects by collaborating with physicians, conducting
-            statistical analyses, improving R functions, and reviewing domain literature to refine
-            research questions.
+            Supported more than 10 MU Health Care research projects through physician collaboration and statistical analysis.
+            Improved R workflows to automate data import, cleaning, analysis, and result-table generation, and reviewed
+            domain-specific literature to strengthen scientific context.
           </p>
         </article>
         <article class="timeline-item">
@@ -148,15 +148,23 @@
       </div>
       <div class="timeline">
         <article class="timeline-item">
-          <p class="date">PhD dissertation project | Feb. 2024 - Present</p>
+          <p class="date">Working paper, ready for submission | Feb. 2024 - Apr. 2026</p>
           <h3>Subgroup analysis for interval-censored data with a cure fraction</h3>
           <p>
-            Developed a mixture promotion time cure model to capture heterogeneous covariate
-            effects on cure probabilities and survival outcomes. Proposed a BIC-based subgroup
-            analysis framework with efficient variance estimation using profiled likelihood and
+            Proposed a mixture promotion time cure model to identify subgroups with heterogeneous cure rates and survival
+            outcomes. Developed a computationally efficient EM algorithm and a profile-likelihood variance procedure using
             the delta method.
           </p>
           <p class="timeline-tags">Survival Analysis | Cure Models | Interval Censoring</p>
+        </article>
+        <article class="timeline-item">
+          <p class="date">Working paper | Jun. 2026 - Present</p>
+          <h3>Instrumental variable estimation for interval-censored data with a cure fraction</h3>
+          <p>
+            Developing a causal promotion time cure model to estimate treatment effects on both survival outcomes and cure
+            probabilities among compliers when event times are interval-censored.
+          </p>
+          <p class="timeline-tags">Causal Inference | Instrumental Variables | Cure Models</p>
         </article>
         <article class="timeline-item">
           <p class="date">PhD dissertation project | Jan. 2025 - Present</p>
@@ -233,16 +241,16 @@
         <div>
           <h3>Technical skills</h3>
           <div class="skill-list">
-            <p><strong>Programming:</strong> R, SAS, Python, JAGS</p>
-            <p><strong>Statistical Methods:</strong> Survival Analysis, Longitudinal Data Analysis, Multi-State Models, Frailty Models, Mixture Models, High-Dimensional Data Analysis, Transfer Learning, Bayesian Method</p>
-            <p><strong>Tools:</strong> HPC Parallel Computing, LATEX, Microsoft Office (Excel, Word, PowerPoint)</p>
+            <p><strong>Programming:</strong> R (Markdown/Shiny), SAS, Python, JAGS, SQL (MySQL)</p>
+            <p><strong>Statistical Methods:</strong> Survival Analysis, Longitudinal Data Analysis, Multi-State Models, Frailty Models, Mixture Models, High-Dimensional Data Analysis, Transfer Learning, Bayesian Methods, Causal Inference</p>
+            <p><strong>Tools:</strong> LaTeX, Microsoft Office, SLURM/HPC Parallel Computing, Nextflow, Codex CLI/IDE, VS Code, Cursor, Git/GitHub</p>
           </div>
           <h3 class="subhead">Certifications</h3>
           <ul class="plain-list">
             <li>SAS Programming 1: Essentials</li>
             <li>SAS Certified Specialist: Base Programming Using SAS 9.4</li>
           </ul>
-          <a class="button secondary" href="assets/2026_Univ. of Missouri_Zewei_Ren.pdf">Download Resume PDF</a>
+          <a class="button secondary" href="assets/2026_Mizzou_Zewei_Ren_threepages.pdf">Download Resume PDF</a>
         </div>
       </div>
     </section>
@@ -252,12 +260,15 @@
         <p class="eyebrow">Contact</p>
         <h2>Open to biostatistician, statistician or related roles.</h2>
         <p>
+          I welcome opportunities to apply statistical methodology, programming, and collaborative research experience to
+          clinical development and other data-driven work.
         </p>
       </div>
       <div class="contact-links">
         <a href="mailto:zrm37@umsystem.edu">Email</a>
+        <a href="tel:+18606342916">Phone</a>
         <a href="https://www.linkedin.com/in/zewei-ren-613806169/">LinkedIn</a>
-        <a href="assets/2026_Univ. of Missouri_Zewei_Ren.pdf">Resume</a>
+        <a href="assets/2026_Mizzou_Zewei_Ren_threepages.pdf">Resume</a>
       </div>
     </section>
   </main>
