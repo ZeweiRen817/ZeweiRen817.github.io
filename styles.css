@@ -174,8 +174,13 @@ nav a:hover {
 #photo-1:checked ~ .photo-stage .photo-one,
 #photo-2:checked ~ .photo-stage .photo-two,
 #photo-3:checked ~ .photo-stage .photo-three,
-#photo-4:checked ~ .photo-stage .photo-four {
+#photo-4:checked ~ .photo-stage .photo-four,
+#photo-5:checked ~ .photo-stage .photo-five {
   opacity: 1;
+}
+
+.photo.headshot {
+  object-position: center 25%;
 }
 
 .photo-controls {
@@ -202,7 +207,8 @@ nav a:hover {
 #photo-1:checked ~ .photo-controls label[for="photo-1"],
 #photo-2:checked ~ .photo-controls label[for="photo-2"],
 #photo-3:checked ~ .photo-controls label[for="photo-3"],
-#photo-4:checked ~ .photo-controls label[for="photo-4"] {
+#photo-4:checked ~ .photo-controls label[for="photo-4"],
+#photo-5:checked ~ .photo-controls label[for="photo-5"] {
   background: var(--white);
 }
 
